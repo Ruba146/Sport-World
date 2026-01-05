@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sport world</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="main-header">
+        <h1>discover your favorite sport world</h1>
+        <p>type a sport name and choose what you want to explore: rules, tournaments, players, or age &amp; gender</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Search for a Sport</h2>
+            <form id="sport-form">
+                <div class="form-group">
+                    <label for="sportInput">sport name</label>
+                    <input 
+                        type="text" 
+                        id="sportInput" 
+                        placeholder="example: Football, Tennis, Chess, Padel" 
+                        required>
+                    <small class="hint">minimum 3 characters</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="categorySelect">What do you want to see?</label>
+                    <select id="categorySelect" required>
+                        <option value="">select an option</option>
+                        <option value="rules">rules</option>
+                        <option value="tournaments">tournaments</option>
+                        <option value="players">players</option>
+                        <option value="ageGender">age &amp; gender</option>
+                    </select>
+                </div>
+
+                <div class="buttons">
+                    <button type="submit" id="searchBtn">search</button>
+                    <button type="button" id="clearBtn">clear results</button>
+                </div>
+            </form>
+            <div id="messageBox" class="message hidden"></div>
+        </section>
+
+        <section class="results-section">
+            <h2>results</h2>
+            <div id="resultsContainer" class="results-grid">
+                <div id="leftBox"></div>
+                <div id="rightBox"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Queen Ruba aljenedi - CCSW321</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
