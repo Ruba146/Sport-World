@@ -32,14 +32,14 @@ This website integrates real-time APIs to fetch and display up-to-date sport inf
 4. Additional data is fetched from Google based on the selected category.  
 5. Results are displayed dynamically without page reload.
 
-
+---
 
 ## Project Structure
----
+
 Sport-World/
-├── index.html  
-├── styles.css  
-└── script.js  
+- index.html  
+- styles.css  
+- script.js  
 
 ---
 
