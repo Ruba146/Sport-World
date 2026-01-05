@@ -37,6 +37,7 @@ This website integrates real-time APIs to fetch and display up-to-date sport inf
 ## Project Structure
 
 Sport-World/
+├──
 ├── index.html  
 ├── styles.css  
 └── script.js  
