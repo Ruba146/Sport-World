@@ -1,6 +1,6 @@
 # Sport World
 
-Sport World is an interactive web application that allows users to explore different sports by searching for a sport name and selecting what information they want to view, such as rules, tournaments, famous players, or suitable age and gender.
+Sport World is an Interactive website that allows users to explore different sports by searching for a sport name and selecting what information they want to view, such as rules, tournaments, famous players, or suitable age and gender.
 
 This website integrates real-time APIs to fetch and display up-to-date sport information.
 ---
